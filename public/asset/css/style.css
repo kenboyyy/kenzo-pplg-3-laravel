@@ -1,0 +1,96 @@
+/* Mengatur tampilan umum halaman */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff1010, #ff0505, #f70303, #ef1818);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Animasi gradien */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Mengatur kotak form login */
+#Loginform {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+/* Mengatur judul halaman login */
+h2 {
+    text-align: center;
+    color: #3745bd;
+    font-size: 28px;
+    
+    justify-content: center;
+    font-weight: bold;
+   
+}
+
+/* Mengatur label input */
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Mengatur input teks dan password */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+/* Efek saat input fokus */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #ff6f91;
+    box-shadow: 0 0 8px rgba(255, 111, 145, 0.2);
+}
+
+/* Mengatur tombol login */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #ff6f91, #ffc75f);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+/* Efek hover pada tombol login */
+button[type="submit"]:hover {
+    background: linear-gradient(135deg, #ff9671, #f9f871);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Mengatur jarak antar elemen */
+div {
+    margin-bottom: 20px;
+}

@@ -13,6 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Up Diamonds Mobile Legends</title>
+    <a href='resources\views\about.blade.php'>Visit W3Schools</a>
 </head>
 <body class="h-full flex flex-col bg-gray-100 text-gray-900 font-sans">
     <header class="bg-blue-500 text-white py-8 px-4 sm:px-6 lg:px-8">
